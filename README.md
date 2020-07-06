@@ -1,5 +1,5 @@
 
-## Cloud Foundry - Hello World Sample using NodeJS
+# Cloud Foundry - Hello World Sample using NodeJS
 
 ## Description
 This is a "Hello World" application for the SAP Cloud Platform Cloud Foundry Environment that spans over several chapters (branches). You will learn:  
