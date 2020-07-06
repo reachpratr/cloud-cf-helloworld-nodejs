@@ -9,4 +9,4 @@ modules:
     path: .
     build-parameters:
      builder: npm
-     build-result: .
+     build-result: dist
