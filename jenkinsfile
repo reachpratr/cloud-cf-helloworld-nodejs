@@ -12,6 +12,7 @@ stage('build') {
 stage('deploy') {
     sh 'rm -rf node_modules'
     sh 'pwd;ls -lrt'
-    cloudFoundryDeploy script:this
+    sh 'cf push com.sap.piper.node.hello.world.mtar'
+   # cloudFoundryDeploy script:this
 }
 }
