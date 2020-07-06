@@ -8,4 +8,5 @@ modules:
     type: nodejs
     path: .
     build-parameters:
-     build-result: dist
+     builder: npm
+     build-result: .
