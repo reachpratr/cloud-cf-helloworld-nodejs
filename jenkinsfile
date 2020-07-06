@@ -11,6 +11,7 @@ stage('build') {
 }
 stage('deploy') {
     sh 'rm -rf node_modules'
+    sh 'pwd;ls -lrt'
     cloudFoundryDeploy script:this
 }
 }
