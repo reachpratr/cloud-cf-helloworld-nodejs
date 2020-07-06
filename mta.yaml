@@ -7,3 +7,6 @@ modules:
   - name: piper.node.hello.world
     type: nodejs
     path: .
+    build-parameters:
+     builder: npm
+     build-result: dist
