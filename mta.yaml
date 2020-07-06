@@ -8,5 +8,4 @@ modules:
     type: nodejs
     path: .
     build-parameters:
-     builder: mta
      build-result: dist
