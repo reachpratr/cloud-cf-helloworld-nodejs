@@ -10,9 +10,8 @@ stage('build') {
        mtaBuild script:this
 }
 stage('deploy') {
-    sh 'rm -rf node_modules'
-    sh 'pwd;ls -lrt'
-    sh 'cf push com.sap.piper.node.hello.world.mtar'
+    
+    cloudFoundryDeploy script:this
     
 }
 }
