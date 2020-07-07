@@ -8,5 +8,5 @@ modules:
     type: nodejs
     path: .
     build-parameters:
-     builder: zip
+     builder: npm
      build-result: dist
